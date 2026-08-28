@@ -22,10 +22,10 @@ and a complete history for the audit. The team is told; the record is
 kept.
 
 | CSV ▣ | Orders ▣ | Telegram ▣ | History ▣ |
-|---|---|---|---|
+| ----- | -------- | ---------- | --------- |
 
-*The procurement loop - import, order, notify, confirm, audit - is
-sealed.*
+_The procurement loop - import, order, notify, confirm, audit - is
+sealed._
 
 > Built with Vue 3 + Pinia + Vite, backed by Supabase, deployed to
 > Firebase Hosting, speaking through Telegram.
