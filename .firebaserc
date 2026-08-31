@@ -1,8 +1,5 @@
 {
   "projects": {
-    "default": "drug-tracker-system",
-    "drug-tracker-system": "drug-tracker-system"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "drug-tracker-system"
+  }
 }
