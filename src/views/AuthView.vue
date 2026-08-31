@@ -64,7 +64,7 @@ async function handleRegister(): Promise<void> {
   <div class="auth-container">
     <div class="auth-card card">
       <h1 class="title">
-        DrugTracker System
+        Tracker
       </h1>
       <p class="subtitle">
         กรุณาเข้าสู่ระบบเพื่อใช้งาน

@@ -42,7 +42,7 @@ function closeMenu(): void {
   <header class="navbar">
     <div class="navbar-container">
       <div class="navbar-brand">
-        DrugTracker
+        Tracker
       </div>
 
       <!-- Mobile Menu Toggle Button -->
