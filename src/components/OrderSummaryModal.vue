@@ -2,8 +2,8 @@
 <script setup lang="ts">
 import type { GroupedOrders, OrderViewOrder } from '@/types/database';
 
-import { supabase } from '@/supabase/client';
 import { ref } from 'vue';
+import { supabase } from '@/supabase/client';
 
 // ─────────────────────────────────────────────
 // Props & Emits

@@ -1,12 +1,12 @@
 import type { RouteRecordRaw } from 'vue-router';
 
+import { createRouter, createWebHistory } from 'vue-router';
 import { supabase } from '@/supabase/client';
 import AuthView from '@/views/AuthView.vue';
 import HistoryView from '@/views/HistoryView.vue';
 import OrderView from '@/views/OrderView.vue';
 import QuickOrderView from '@/views/QuickOrderView.vue';
 import ReceiveView from '@/views/ReceiveView.vue';
-import { createRouter, createWebHistory } from 'vue-router';
 // src/router/index.ts
 
 // Augment route meta typing

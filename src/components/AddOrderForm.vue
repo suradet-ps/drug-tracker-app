@@ -2,8 +2,8 @@
 <script setup lang="ts">
 import type { AddOrderFormData, DrugRow, ImportBatchRow, PurchaseOrderInsert, SupplierRow } from '@/types/database';
 
-import { supabase } from '@/supabase/client';
 import { reactive, ref } from 'vue';
+import { supabase } from '@/supabase/client';
 
 const emit = defineEmits<{
   close: [];

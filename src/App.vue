@@ -2,11 +2,11 @@
 <script setup lang="ts">
 import type { Session } from '@supabase/supabase-js';
 
+import { onMounted, onUnmounted, ref } from 'vue';
 import NavBar from '@/components/NavBar.vue';
 import Notification from '@/components/Notification.vue';
 import { supabase } from '@/supabase/client';
 import AuthView from '@/views/AuthView.vue';
-import { onMounted, onUnmounted, ref } from 'vue';
 
 const session = ref<Session | null>(null);
 let authSubscription: { unsubscribe: () => void } | null = null;

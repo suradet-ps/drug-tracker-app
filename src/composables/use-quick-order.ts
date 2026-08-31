@@ -8,8 +8,8 @@ import type {
   SupplierRow,
 } from '@/types/database';
 
-import { supabase } from '@/supabase/client';
 import { computed, ref } from 'vue';
+import { supabase } from '@/supabase/client';
 
 // ─────────────────────────────────────────────
 // Internal types

@@ -2,10 +2,10 @@
 <script setup lang="ts">
 import type { QuickOrderDraftItem } from '@/types/database';
 
-import { useQuickOrder } from '@/composables/use-quick-order';
-import { useNotificationStore } from '@/stores/notification';
 import { computed, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
+import { useQuickOrder } from '@/composables/use-quick-order';
+import { useNotificationStore } from '@/stores/notification';
 
 // ─────────────────────────────────────────────
 // Composables & Stores

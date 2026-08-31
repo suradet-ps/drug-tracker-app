@@ -1,8 +1,8 @@
 <!-- src/views/AuthView.vue -->
 <script setup lang="ts">
-import { supabase } from '@/supabase/client';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
+import { supabase } from '@/supabase/client';
 
 const email = ref<string>('');
 const password = ref<string>('');

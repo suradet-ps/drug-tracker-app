@@ -2,11 +2,11 @@
 <script setup lang="ts">
 import type { GroupedOrders, OrderViewOrder } from '@/types/database';
 
+import { computed, onMounted, ref } from 'vue';
 import AddOrderForm from '@/components/AddOrderForm.vue';
 import OrderSummaryModal from '@/components/OrderSummaryModal.vue';
 import { useNotificationStore } from '@/stores/notification';
 import { supabase } from '@/supabase/client';
-import { computed, onMounted, ref } from 'vue';
 
 // ─────────────────────────────────────────────
 // Stores

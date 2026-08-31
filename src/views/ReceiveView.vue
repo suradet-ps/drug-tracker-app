@@ -2,10 +2,10 @@
 <script setup lang="ts">
 import type { ReceivableOrder, ReceiveViewOrder } from '@/types/database';
 
+import { computed, onMounted, ref } from 'vue';
 import { useNotificationStore } from '@/stores/notification';
 import { supabase } from '@/supabase/client';
 import { formatDate } from '@/utils/date';
-import { computed, onMounted, ref } from 'vue';
 
 // ─────────────────────────────────────────────
 // Stores
